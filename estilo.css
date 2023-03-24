@@ -7,7 +7,9 @@
 header{
     background: url(img/header.jpg);
     background-size: cover;
-    background-position:center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     height: 300px;
 }
 header h1{
@@ -207,3 +209,26 @@ header h1{
     }
   }
 
+/*estilo de la seccion hero*/
+.hero-sec{
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-image: linear-gradient(180deg,#00000021 0%, #0000008c 100%), url('/img/home/Diseno-de-interiores-estudio-casa-3.webp');
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.hero-sec .sub-heading{
+    margin-top: 10px;
+    text-align: center;
+    color: #ffff;
+    text-transform: capitalize;
+    font-size: 90px;
+    font-weight: 300;
+}
