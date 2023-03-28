@@ -232,3 +232,21 @@ header h1{
     font-size: 90px;
     font-weight: 300;
 }
+
+.carousel .carousel-item {
+    height: 600px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
+
+  .categ-text{
+    color: #666;
+    text-decoration: underline;
+    text-align: center;
+  }
